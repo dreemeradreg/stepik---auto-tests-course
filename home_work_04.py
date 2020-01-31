@@ -16,7 +16,7 @@ try:
 	#  самая орная часть
 	browser.execute_script("alert('Robots at work');")
 	alert = browser.switch_to.alert
-	time.sleep(2)
+	# time.sleep(2)
 	alert.accept()
 	# поиск элемента и значения для уравнения
 	input1 = browser.find_element_by_id('input_value')
